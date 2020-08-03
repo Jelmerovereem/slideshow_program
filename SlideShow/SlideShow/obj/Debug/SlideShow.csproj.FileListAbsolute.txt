@@ -1,0 +1,10 @@
+D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\bin\Debug\SlideShow.exe.config
+D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\bin\Debug\SlideShow.exe
+D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\bin\Debug\SlideShow.pdb
+D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\obj\Debug\SlideShow.csprojAssemblyReference.cache
+D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\obj\Debug\SlideShow.Form1.resources
+D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\obj\Debug\SlideShow.Properties.Resources.resources
+D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\obj\Debug\SlideShow.csproj.GenerateResource.cache
+D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\obj\Debug\SlideShow.csproj.CoreCompileInputs.cache
+D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\obj\Debug\SlideShow.exe
+D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\obj\Debug\SlideShow.pdb
