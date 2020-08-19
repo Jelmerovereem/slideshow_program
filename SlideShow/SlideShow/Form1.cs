@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using CloudinaryDotNet;
+using CloudinaryDotNet.Actions;
 
 namespace SlideShow
 {
@@ -17,32 +20,34 @@ namespace SlideShow
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if(pictureBox1.Visible == true)
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Title = "Please insert multiple images";
+            ofd.Multiselect = true;
+            ofd.Filter = "JPG|*.jpg|JPEG|*.jpeg";
+            DialogResult dr = ofd.ShowDialog();
+            if(dr == System.Windows.Forms.DialogResult.OK)
             {
-                pictureBox2.Visible = true;
-                pictureBox3.Visible = false;
-                pictureBox4.Visible = false;
-                pictureBox1.Visible = false;
-            } else if(pictureBox2.Visible == true)
-            {
-                pictureBox3.Visible = true;
-                pictureBox1.Visible = false;
-                pictureBox4.Visible = false;
-                pictureBox2.Visible = false;
-            } else if (pictureBox3.Visible == true)
-            {
-                pictureBox4.Visible = true;
-                pictureBox3.Visible = false;
-                pictureBox2.Visible = false;
-                pictureBox1.Visible = false;
-            } else if (pictureBox4.Visible == true)
-            {
-                pictureBox1.Visible = true;
-                pictureBox3.Visible = false;
-                pictureBox4.Visible = false;
-                pictureBox2.Visible = false;
+                string []files = ofd.FileNames;
+                int x = 20;
+                int y = 20;
+                int maxHeight = -1;
+                foreach(string img in files)
+                {
+                    PictureBox pic = new PictureBox();
+                    pic.Image = Image.FromFile(img);
+                    pic.Location = new System.Drawing.Point(x, y);
+                    pic.SizeMode = PictureBoxSizeMode.CenterImage;
+                    x += pic.Width + 10;
+                    maxHeight = Math.Max(pic.Height, maxHeight);
+                    if( x > this.ClientSize.Width - 100)
+                    {
+                        x = 20;
+                        y += maxHeight + 10;
+                    }
+                    this.panelImages.Controls.Add(pic);
+                }
             }
         }
     }

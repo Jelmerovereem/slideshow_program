@@ -8,3 +8,11 @@ D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\obj\Debug\
 D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\obj\Debug\SlideShow.csproj.CoreCompileInputs.cache
 D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\obj\Debug\SlideShow.exe
 D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\obj\Debug\SlideShow.pdb
+D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\bin\Debug\CloudinaryDotNet.dll
+D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\bin\Debug\System.Text.Encodings.Web.dll
+D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\bin\Debug\CloudinaryDotNet.xml
+D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\bin\Debug\System.Text.Encodings.Web.xml
+D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\obj\Debug\SlideShow.csproj.CopyComplete
+D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\bin\Debug\Newtonsoft.Json.dll
+D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\bin\Debug\Newtonsoft.Json.pdb
+D:\Google Drive\Eigen projecten\slideshow_program\SlideShow\SlideShow\bin\Debug\Newtonsoft.Json.xml
